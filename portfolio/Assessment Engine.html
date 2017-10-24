@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" media="screen" href="css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+
+   <head>
+      <title>jQuery lightbox clone - prettyPhoto - by Stephane Caron</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+      <!--script src="js/jquery.lint.js" type="text/javascript" charset="utf-8"></script-->
+      <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+      <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+      <style type="text/css" media="screen">
+         * { margin: 0; padding: 0; }
+         body {
+         background: #282828;
+         font: 62.5%/1.2 Arial, Verdana, Sans-Serif;
+         padding: 0 20px;
+         }
+         h1 { font-family: Georgia; font-style: italic; margin-bottom: 10px; }
+         h2 {
+         font-family: Georgia;
+         font-style: italic;
+         margin: 25px 0 5px 0;
+         }
+         p { font-size: 1.2em; }
+         ul li { display: inline; }
+         .wide {
+         border-bottom: 1px #000 solid;
+         width: 4000px;
+         }
+         .fleft { float: left; margin: 0 20px 0 0; }
+         .cboth { clear: both; }
+         #main {
+         background: #fff;
+         margin: 0 auto;
+         padding: 30px;
+         width: 1000px;
+         }
+      </style>
+
+
+
+      <!-- Bootstrap -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/custom_mukesh.css" rel="stylesheet" type="text/css">
+      <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+      <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+      <link href="jQueryAssets/jquery.ui.dialog.min.css" rel="stylesheet" type="text/css">
+      <link href="jQueryAssets/jquery.ui.resizable.min.css" rel="stylesheet" type="text/css">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+      <script src="jQueryAssets/jquery.ui-1.10.4.dialog.min.js"></script>
+   </head>
+   <body>
+ 
+
+
+
+   
+   
+      <div id="main" style="display:none">
+         <div class="fleft">
+            <ul class="gallery clearfix">
+               <li><a href="http://www.youtube.com/watch?v=kh29_SERH0Y?rel=0" rel="prettyPhoto" title="YouTube demo"><img src="images/thumbnails/flash-logo.png" width="60" alt="" /></a></li>
+               <li><a href="http://youtu.be/kh29_SERH0Y?rel=0" rel="prettyPhoto" title="YouTube demo"><img src="images/thumbnails/flash-logo.png" width="60" alt="" /></a></li>
+            </ul>
+         </div>
+      </div>
+      
+
+<!-- My code starts from here --> 
+
+
+<div class="galleryItem">
+	<ul class="gallery clearfix">
+		<li><a href="https://www.youtube.com/watch?v=mCXs6GW3kxc" rel="prettyPhoto" title="Type the words in the correct place Question Set"><img src="images/Assessment Engine/Grade 3/Type-the-words-in-the-correct-place-Question-Set.png" class="img-thumbnail img-responsive" alt="Type the words in the correct place Question Set"></a>
+			<h5>Type the words in the correct place Question Set</h5>
+			<p></p>
+		</li>
+	</ul>	
+</div>
+   
+   
+   
+   
+      <div class="galleryItem">
+       <ul class="gallery clearfix">
+                  <li><a href="https://www.youtube.com/watch?v=0piLsbwY--s" rel="prettyPhoto" title="True & False Question Set"><img src="images/Assessment Engine/Grade 3/True-&-False-Question-Set.png" class="img-thumbnail img-responsive" alt="True & False Question Set"></a>
+       <h5>True & False Question Set</h5>
+     <p></p>
+      </li>
+    </ul>      
+   </div>
+      <div class="galleryItem">
+       <ul class="gallery clearfix">
+                  <li><a href="https://www.youtube.com/watch?v=3bnEDE2ceSM" rel="prettyPhoto" title="Tick Cross Question Set"><img src="images/Assessment Engine/Grade 3/Tick-Cross-Question-Set.png" class="img-thumbnail img-responsive" alt="Tick Cross Question Set"></a>
+       <h5>Tick Cross Question Set</h5>
+     <p></p>
+      </li>
+    </ul>      
+   </div>
+      <div class="galleryItem">
+       <ul class="gallery clearfix">
+                  <li><a href="https://www.youtube.com/watch?v=ucKFm-XnWHo" rel="prettyPhoto" title="Shooting Words Question Set"><img src="images/Assessment Engine/Grade 3/Shooting-Words-Question-Set.png" class="img-thumbnail img-responsive" alt="Shooting Words Question Set"></a>
+       <h5>Shooting Words Question Set</h5>
+     <p></p>
+      </li>
+    </ul>      
+   </div>
+      <div class="galleryItem">
+       <ul class="gallery clearfix">
+                  <li><a href="https://www.youtube.com/watch?v=Yuziyq3gP_w" rel="prettyPhoto" title="Select the correct words Question Set"><img src="images/Assessment Engine/Grade 3/Select-the-correct-words-Question-Set.png" class="img-thumbnail img-responsive" alt="Select the correct words Question Set"></a>
+       <h5>Select the correct words Question Set</h5>
+     <p></p>
+      </li>
+    </ul>      
+   </div>
+      <div class="galleryItem">
+       <ul class="gallery clearfix">
+                  <li><a href="https://www.youtube.com/watch?v=Yuziyq3gP_w" rel="prettyPhoto" title="Match the Following Question Set"><img src="images/Assessment Engine/Grade 3/Match-the-Following-Question-Set.png" class="img-thumbnail img-responsive" alt="Match the Following Question Set"></a>
+       <h5>Match the Following Question Set</h5>
+     <p></p>
+      </li>
+    </ul>      
+   </div>
+      <div class="galleryItem">
+       <ul class="gallery clearfix">
+                  <li><a href="https://www.youtube.com/watch?v=daxMxTvU8Ak" rel="prettyPhoto" title="Hangman Question Set"><img src="images/Assessment Engine/Grade 3/Hangman-Question-Set.png" class="img-thumbnail img-responsive" alt="Hangman Question Set"></a>
+       <h5>Hangman Question Set</h5>
+     <p></p>
+      </li>
+    </ul>      
+   </div>
+      <div class="galleryItem">
+       <ul class="gallery clearfix">
+                  <li><a href="https://www.youtube.com/watch?v=ZB62z8AXEWo" rel="prettyPhoto" title="Drag & Drop Question Set"><img src="images/Assessment Engine/Grade 3/Drag-&-Drop-Question-Set.png" class="img-thumbnail img-responsive" alt="Drag & Drop Question Set"></a>
+       <h5>Drag & Drop Question Set</h5>
+     <p></p>
+      </li>
+    </ul>      
+   </div>
+      <div class="galleryItem">
+       <ul class="gallery clearfix">
+                  <li><a href="https://www.youtube.com/watch?v=UYL9N13a7mU" rel="prettyPhoto" title="Drag & Drop Fill in the Blank Question Set"><img src="images/Assessment Engine/Grade 3/Drag-&-Drop-Fill-in-the-Blank-Question-Set.png" class="img-thumbnail img-responsive" alt="Drag & Drop Fill in the Blank Question Set"></a>
+       <h5>Drag & Drop Fill in the Blank Question Set</h5>
+     <p></p>
+      </li>
+    </ul>      
+   </div>
+      <div class="galleryItem">
+       <ul class="gallery clearfix">
+                  <li><a href="https://www.youtube.com/watch?v=pkQnQTx5AU8" rel="prettyPhoto" title="Crossword Question Set"><img src="images/Assessment Engine/Grade 3/Crossword-Question-Set.png" class="img-thumbnail img-responsive" alt="Crossword Question Set"></a>
+       <h5>Crossword Question Set</h5>
+     <p></p>
+      </li>
+    </ul>      
+   </div>
+      <div class="galleryItem">
+       <ul class="gallery clearfix">
+                  <li><a href="https://www.youtube.com/watch?v=XZ9u6kGKAFs" rel="prettyPhoto" title="Click & Learn Question Set"><img src="images/Assessment Engine/Grade 3/Click-&-Learn-Question-Set.png" class="img-thumbnail img-responsive" alt="Click & Learn Question Set"></a>
+       <h5>Click & Learn Question Set</h5>
+     <p></p>
+      </li>
+    </ul>      
+   </div>
+      <div class="galleryItem">
+       <ul class="gallery clearfix">
+                  <li><a href="https://www.youtube.com/watch?v=RYx93AdoFxI" rel="prettyPhoto" title="Drag & Drop Question Set1"><img src="images/Assessment Engine/Grade 3/Drag-&-Drop-Question-Set1.png" class="img-thumbnail img-responsive" alt="Drag & Drop Question Set1"></a>
+       <h5>Drag & Drop Question Set1</h5>
+     <p></p>
+      </li>
+    </ul>      
+   </div>
+
+
+
+
+			
+<!-- My code ends from here -->
+			
+			
+    	</div>
+    	
+    	
+    </div>
+   
+
+      
+
+    
+      
+<!-- Script- DO NOT DELETE -->    
+                         
+         <script type="text/javascript" charset="utf-8">
+            $(document).ready(function(){
+            	$("area[rel^='prettyPhoto']").prettyPhoto();
+            	
+            	$(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: true});
+            	$(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000, hideflash: true});
+            
+            	$("#custom_content a[rel^='prettyPhoto']:first").prettyPhoto({
+            		custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
+            		changepicturecallback: function(){ initialize(); }
+            	});
+            
+            	$("#custom_content a[rel^='prettyPhoto']:last").prettyPhoto({
+            		custom_markup: '<div id="bsap_1259344" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div><div id="bsap_1237859" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6" style="height:260px"></div><div id="bsap_1251710" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div>',
+            		changepicturecallback: function(){ _bsap.exec(); }
+            	});
+            });
+         </script>
+         <!-- Google Maps Code -->
+         <script type="text/javascript"
+            src="http://maps.google.com/maps/api/js?sensor=true"></script>
+         <script type="text/javascript">
+            function initialize() {
+              var latlng = new google.maps.LatLng(-34.397, 150.644);
+              var myOptions = {
+                zoom: 8,
+                center: latlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+              };
+              var map = new google.maps.Map(document.getElementById("map_canvas"),
+                  myOptions);
+            }
+            
+         </script>
+         <!-- END Google Maps Code -->
+         <!-- BuySellAds.com Ad Code -->
+         <style type="text/css" media="screen">
+            .bsap a { float: left; }
+         </style>
+         <script type="text/javascript">
+            (function(){
+              var bsa = document.createElement('script');
+                 bsa.type = 'text/javascript';
+                 bsa.async = true;
+                 bsa.src = '//s3.buysellads.com/ac/bsa.js';
+              (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+            })();
+         </script>
+         <!-- END BuySellAds.com Ad Code -->
+         
+<!-- Script- DO NOT DELETE -->     
+      
+      
+      
+   </body>
+</html>
